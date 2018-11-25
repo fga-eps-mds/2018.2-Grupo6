@@ -207,7 +207,7 @@ O sistema se comunica com um banco de dados externo. O sistema deve ser resisten
 #### 6.4 Restrições de Uso
 Para o uso do sistema é necessário que o usuário tenha acesso a um dispositivo conectado à internet.
 
-# 7. Referências Bibliográficas
+### 7. Referências Bibliográficas
 
 IBM Knowledge Center - Documento de Visão: Estruturas de um Documento de Visão.
 Disponível em: <https://www.ibm.com/support/knowledgecenter/pt-br/SSWMEQ_4.0.6/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html>
