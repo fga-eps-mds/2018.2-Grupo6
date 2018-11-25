@@ -77,7 +77,7 @@ class HomeSplash extends React.Component {
     const language = this.props.language || '';
     return (
       <SplashContainer>
-        {/* <Logo img_src={imgUrl('docusaurus.svg')} /> */}
+        <Logo img_src={imgUrl('docusaurus.svg')} />
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
@@ -104,16 +104,16 @@ const Features = () => (
   <Block layout="fourColumn">
     {[
       {
-        content: 'Encontre consumidores interessados em seu produto no campus diretamente, sem precisar se deslocar tanto tempo procurando por tentativa e erro algum cliente',
-        // image: imgUrl('docusaurus.svg'),
+        content: 'This is the content of my feature',
+        image: imgUrl('docusaurus.svg'),
         imageAlign: 'top',
-        title: 'Vendedores',
+        title: 'Feature One',
       },
       {
-        content: 'Economize seu tempo encontrando rapidamente seu produto para que consiga utilizar seu precioso tempo para estudo e finalizar sua graduação com sucesso.',
-        // image: imgUrl('docusaurus.svg'),
+        content: 'The content of my second feature',
+        image: imgUrl('docusaurus.svg'),
         imageAlign: 'top',
-        title: 'Consumidores',
+        title: 'Feature Two',
       },
     ]}
   </Block>
@@ -123,8 +123,8 @@ const FeatureCallout = () => (
   <div
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <h2>Conecte-se</h2>
-    <MarkdownBlock>Todos os pedidos acessíveis facilmente. Todos os clientes realmente intessados. Todos os produtos entregues.</MarkdownBlock>
+    <h2>Feature Callout</h2>
+    <MarkdownBlock>These are features of this project</MarkdownBlock>
   </div>
 );
 
@@ -132,10 +132,10 @@ const LearnHow = () => (
   <Block background="light">
     {[
       {
-        content: 'Encontre ofertas disponíveis rapidamente, podendo comparar com os menores preços.',
-        // image: imgUrl('docusaurus.svg'),
+        content: 'Talk about learning how to use this',
+        image: imgUrl('docusaurus.svg'),
         imageAlign: 'right',
-        title: 'Agilidade ao Encontrar Produtos',
+        title: 'Learn How',
       },
     ]}
   </Block>
@@ -145,10 +145,23 @@ const TryOut = () => (
   <Block id="try">
     {[
       {
-        content: 'Sem desgastes para acessar pedidos e encontrar clientes interessados diretamente.',
-        // image: imgUrl('docusaurus.svg'),
+        content: 'Talk about trying this out',
+        image: imgUrl('docusaurus.svg'),
         imageAlign: 'left',
-        title: 'Pedidos Acessíveis Rapidamente',
+        title: 'Try it Out',
+      },
+    ]}
+  </Block>
+);
+
+const Description = () => (
+  <Block background="dark">
+    {[
+      {
+        content: 'This is another description of how this project is useful',
+        image: imgUrl('docusaurus.svg'),
+        imageAlign: 'right',
+        title: 'Description',
       },
     ]}
   </Block>
@@ -167,8 +180,8 @@ const Showcase = props => {
 
   return (
     <div className="productShowcaseSection paddingBottom">
-      <h2>Membros</h2>
-      <p>Todo o projeto foi desenvolvido por:</p>
+      <h2>Who is Using This?</h2>
+      <p>This project is used by all these people</p>
       <div className="logos">{showcase}</div>
       <div className="more-users">
         <a className="button" href={pageUrl('users.html', props.language)}>
@@ -191,7 +204,7 @@ class Index extends React.Component {
           <FeatureCallout />
           <LearnHow />
           <TryOut />
-          {/* <Description /> */}
+          <Description />
           <Showcase language={language} />
         </div>
       </div>

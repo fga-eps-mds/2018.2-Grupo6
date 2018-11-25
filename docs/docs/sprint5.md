@@ -7,9 +7,23 @@ sidebar_label: Sprint 5
 # Planejamento da Sprint
 |Par|História|Pontos|
 |---|:------:|:----:|
-|[Dâmaso Pereira](https://github.com/juniopereirab) e [Welison Almeida](https://github.com/WelisonR)|US08|21|
-|[Gustavo Lima](https://github.com/gustavolima00) e [Shayane Alcântara](https://github.com/shayanealcantara)|US02 e US11|16|
-|[André Pinto](https://github.com/andrelucax) e [Leonardo Medeiros](https://github.com/leomedeiros1)|US10 e US06|18|
+|[Dâmaso Pereira](https://github.com/orgs/fga-eps-mds/people/juniopereirab) e [Welison Almeida](https://github.com/orgs/fga-eps-mds/people/WelisonR)|US08|21|
+|[Gustavo Lima](https://github.com/orgs/fga-eps-mds/people/gustavolima00) e [Shayane Alcântara](https://github.com/orgs/fga-eps-mds/people/shayanealcantara)|US02 e US11|16|
+|[André Pinto](https://github.com/orgs/fga-eps-mds/people/andrelucax) e [Leonardo Medeiros](https://github.com/orgs/fga-eps-mds/people/leomedeiros1)|US10 e US06|18|
+
+-------------------------------------------------------------------------------
+# Riscos
+## Riscos Internos
+|Risco interno|Medidas|Pontuação|
+|:------------|:------|:-------:|
+| | | |
+| | | |
+
+## Riscos Externos
+|Risco externo|Medidas|Pontuação|
+|:------------|:------|:-------:|
+| | | |
+| | | |
 
 -------------------------------------------------------------------------------
 # Retrospectiva da Sprint
@@ -48,11 +62,11 @@ sidebar_label: Sprint 5
 
 -------------------------------------------------------------------------------
 # Revisão da Sprint
-* A [US08](https://github.com/fga-eps-mds/2018.2-Integra-Vendas/issues/46) foi feita por completo.
-* A [US02](https://github.com/fga-eps-mds/2018.2-Integra-Vendas/issues/40) foi feita por completo.
-* A [US11](https://github.com/fga-eps-mds/2018.2-Integra-Vendas/issues/83) foi feita por completo.
-* A [US10](https://github.com/fga-eps-mds/2018.2-Integra-Vendas/issues/48) não preencheu todos os critérios de aceitação.
-* A [US06](https://github.com/fga-eps-mds/2018.2-Integra-Vendas/issues/44) foi feita por completo.
+* A [US08](https://github.com/fga-eps-mds/2018.2-iFood/issues/46) foi feita por completo.
+* A [US02](https://github.com/fga-eps-mds/2018.2-iFood/issues/40) foi feita por completo.
+* A [US11](https://github.com/fga-eps-mds/2018.2-iFood/issues/83) foi feita por completo.
+* A [US10](https://github.com/fga-eps-mds/2018.2-iFood/issues/48) não preencheu todos os critérios de aceitação.
+* A [US06](https://github.com/fga-eps-mds/2018.2-iFood/issues/44) foi feita por completo.
 -------------------------------------------------------------------------------
 # Métricas
 ![tempo-mds-5](assets/sprints/tempo-mds-5.png)
